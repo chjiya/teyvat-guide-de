@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="/teyvat-guide-de/">
+<meta name="description" content="Furina Build Guide DE — Fontaine Hydro-Archon, bester off-field Support mit bis zu 75% Team-DMG-Bonus. Artefakte, Waffen, Fanfare-Mechanik und FAQ. Community-verifiziert, Stand v5.7.">
+<meta name="keywords" content="Furina Guide, Furina Build, Genshin Furina, Furina Artefakte, Hydro Archon, Fanfare, Salon Members">
+<title>Furina Build Guide v5.7 — Fontaine Hydro-Archon, 75% Team-DMG-Bonus | Teyvat Guide DE</title>
+<link rel="stylesheet" href="/teyvat-guide-de/css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Furina Build Guide v5.7 — Fontaine Hydro-Archon mit 75% Team-DMG-Bonus","dateModified":"2026-06-07","datePublished":"2026-06-07","author":{"@type":"Organization","name":"Teyvat Guide DE"},"description":"Community-verifizierter Furina Build Guide. Beste Artefakte, Waffen, Fanfare-Mechanik und Team-Kompositionen für den Hydro-Archon."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Warum braucht Furina einen Team-Heiler?","acceptedAnswer":{"@type":"Answer","text":"Furinas Salon Members konsumieren kontinuierlich HP aller Teammitglieder (bis 50%). Um Fanfare-Stacks effizient aufzubauen, muss die verlorene HP über einen Team-weiten Heiler wie Jean, Charlotte, Baizhu oder Xianyun wiederhergestellt werden. Ohne Heiler bleibt der Fanfare-Bonus niedrig und Furinas eigener Schaden sinkt drastisch, da ihre Salon Members unter 50% HP aufhören, den erhöhten Schadensmultiplikator zu erhalten."}},{"@type":"Question","name":"Ist Furinas C2 die Konstellation wert?","acceptedAnswer":{"@type":"Answer","text":"Furinas C2 ist eine der stärksten frühen Konstellationen im Spiel. Sie erhöht die Fanfare-Akkumulationsrate um 250%, sodass Sie die maximalen 400 Fanfare-Stacks (bei C1 erhöhtes Limit) mit einem einzigen Burst-Zyklus erreichen. Das entspricht 100% DMG-Bonus für das gesamte Team — eine massive Steigerung gegenüber 75% auf C0. Zusätzlich skaliert C2 Furinas eigene max HP basierend auf überschüssigen Fanfare-Stacks, was ihren persönlichen Schaden verdoppelt."}},{"@type":"Question","name":"Golden Troupe oder Marechaussee Hunter für Furina?","acceptedAnswer":{"@type":"Answer","text":"4-Golden Troupe ist das eindeutig beste Set. Es gewährt 70% Elemental Skill DMG — und Furinas gesamter off-field Schaden stammt von ihrer Elemental Skill (Salon Members). Marechaussee Hunter ist nur für Furina als on-field DPS auf C6 sinnvoll, da sie dann Hydro-Infusion auf ihren Normalangriffen erhält. Für C0-C5 ist Golden Troupe alternativlos."}}]}</script>
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a href="/teyvat-guide-de/" class="logo">🎮 Teyvat Guide DE</a>
+<nav>
+<a href="/teyvat-guide-de/guides/">Guides</a>
+<a href="/teyvat-guide-de/guides/characters/">Charaktere</a>
+<a href="/teyvat-guide-de/guides/teams/">Teams</a>
+<a href="/teyvat-guide-de/guides/beginner/">Anfänger</a>
+</nav>
+</div>
+</header>
+<main class="container">
+<nav class="breadcrumb"><a href="/teyvat-guide-de/">Start</a> &raquo; <a href="/teyvat-guide-de/guides/characters/">Charaktere</a> &raquo; Furina</nav>
+<article>
+<span class="version-badge">📌 v5.7 · 7. Juni 2026</span>
+<h1>Furina Build Guide — Die Hydro-Archonin von Fontaine</h1>
+<div class="ad-placeholder">[Anzeige]</div>
+
+<h2>Zusammenfassung</h2>
+<p>Furina ist eine <strong>5-Sterne Hydro-Schwertnutzerin</strong> und die amtierende <strong>Hydro-Archonin von Fontaine</strong>. Sie ist der mit Abstand <strong>beste off-field Support und Sub-DPS im gesamten Spiel</strong> und definiert die Team-Building-Meta grundlegend neu. Ihr Kern-Kit dreht sich um zwei untrennbar verbundene Mechaniken: Die <strong>Salon Members</strong> (Elemental Skill „Salon Solitaire") und das <strong>Fanfare-System</strong> (Elemental Burst „Let the People Rejoice"). Die Salon Members — drei hydro-beschworene Kreaturen (der Seepferdchen-Ritter Surintendante Chevalmarin, der Tintenfisch-Gentleman Gentilhomme Usher und der Krebs-Chevalier Mademoiselle Crabaletta) — greifen Gegner automatisch mit Hydro-Schaden an und konsumieren dabei die HP aller Teammitglieder bis auf 50%. Gleichzeitig kann Furina per Charged Attack in den „Singer of Many Waters"-Modus wechseln, in dem sie den aktiven Charakter kontinuierlich heilt, anstatt Schaden zu verursachen. Ihr Burst gewährt dem gesamten Team einen <strong>DMG-Bonus von bis zu 75% auf C0</strong> (maximal 300 Fanfare-Stacks × 0,25% pro Stack), der durch HP-Änderungen im Team aufgebaut wird — jeder Prozentpunkt HP-Verlust oder -Heilung generiert einen Fanfare-Stack. Auf C1 startet sie mit 150 Stacks und das Maximum steigt auf 400 (100% DMG-Bonus). <strong>Furinas C2 ist ihr größter Power-Spike:</strong> Die Fanfare-Akkumulationsrate wird um 250% erhöht, sodass Sie innerhalb weniger Sekunden das Maximum erreichen. Überschüssige Stacks erhöhen zudem ihre maximale HP um 0,5% pro Stack (bis zu 140%), was ihren persönlichen Schaden massiv skaliert. Furina ist essenziell für nahezu jedes Meta-Team: Sie ist der BIS-Support für Neuvillette, Wriothesley, Hu Tao, Navia, Cyno, Alhaitham, Xiao und viele weitere. Praktisch jeder Charakter, der mit HP-Schwankungen arbeitet oder einen Team-Heiler mitbringen kann, profitiert von ihrem universellen DMG-Bonus. Die Synergie mit <strong>Team-weiten Heilern</strong> ist dabei unverzichtbar: Jean, Charlotte, Baizhu und Xianyun sind ihre besten Partner, um Fanfare-Stacks schnell und zuverlässig aufzubauen. Ohne Heiler bleibt das Fanfare-Potenzial ungenutzt und Furinas eigener Schaden bricht ein, da die Salon Members unter 50% HP ihren Bonus-DMG-Multiplikator verlieren. Furina wurde in Version 4.2 veröffentlicht und hat seitdem jede Spiral-Abyss-Rotation dominiert — sie ist der meistgenutzte Charakter in Abyss-Statistiken, noch vor Kazuha und Bennett.</p>
+
+<p>Furinas Flexibilität ist beispiellos: Sie kann sowohl als reiner off-field Hydro-Applikator und DMG-Buffer fungieren (Ousia-Modus mit Salon Members), als auch als Heilerin in Welterkundung und Domänen (Pneuma-Modus mit Singer of Many Waters). Ihr passives Talent A1 („Endless Waltz") sorgt zudem für indirekte Teamheilung: Wenn ein Charakter außer Furina überheilt wird, heilt Furina alle Teammitglieder für 2% ihrer max HP alle 2 Sekunden über 4 Sekunden. Dies reduziert die Abhängigkeit von einem dedizierten Heiler leicht und macht sie in Kombination mit Selbstheilern wie Neuvillette noch mächtiger. <strong>Skill-Priorität: Elemental Skill (S+) &gt; Elemental Burst (S+) &gt; Normal Attack (nicht leveln).</strong> Ihr Normalangriff hat auf C0-C5 keinerlei praktischen Nutzen — nur auf C6 mit der Hydro-Infusion wird er relevant. Furina benötigt etwa 170-200% Energy Recharge in Solo-Hydro-Teams und etwa 140-160% in Doppel-Hydro-Kompositionen wie mit Neuvillette oder Yelan. Als Waffe ist ihre Signatur „Splendor of Tranquil Waters" optimal, aber der F2P-Angel „Fleuve Cendre Ferryman" (Fontaine-Fischerei) ist eine hervorragende Alternative mit Energy Recharge und Skill-CRIT-Rate. Festering Desire (Event-Waffe 1.2) und Primordial Jade Cutter sind weitere starke Optionen.</p>
+
+<h2>FAQ</h2>
+
+<h3>Warum braucht Furina einen Team-Heiler?</h3>
+<div class="atomic-answer">
+<p><strong>Weil die Salon Members kontinuierlich HP von allen Teammitgliedern konsumieren</strong> — und zwar bis auf 50% HP. Furinas Burst wandelt jede HP-Änderung (Verlust oder Heilung) in Fanfare-Stacks um (1% HP = 1 Stack). Ohne einen Heiler, der diese verlorene HP wieder auffüllt, bleiben Sie bei halben HP hängen und generieren keine weiteren Stacks. Gleichzeitig verlieren die Salon Members unter 50% Teammitglieder-HP ihren eingebauten DMG-Bonus-Multiplikator von bis zu 140% (auf Talent-Level 10). Ein Team-weiter Heiler wie <strong>Jean</strong> (füllt mit ihrem Burst sofort alle Teammitglieder auf 100%), <strong>Charlotte</strong> (AoE-Heilung über Zeit), <strong>Baizhu</strong> (Schild + Team-Heilung auf Skill) oder <strong>Xianyun</strong> (AoE-Burst-Heilung + kontinuierliche Heilung) stellt sicher, dass Sie pro Rotation 200-300 Fanfare-Stacks generieren und den vollen 75% DMG-Bonus erreichen. <strong>Ohne Heiler erreichen Sie typischerweise nur 100-150 Stacks</strong> — weniger als die Hälfte des Potenzials.</p>
+</div>
+
+<h3>Ist Furinas C2 die Konstellation wert?</h3>
+<div class="atomic-answer">
+<p><strong>Ja — C2 ist die mit Abstand stärkste frühe Konstellation im gesamten Spiel</strong> und stellt einen massiven Power-Spike dar. Sie erhöht die Fanfare-Akkumulationsrate um 250%. In der Praxis bedeutet das: Ein einzelner Burst von Jean (der alle auf 100% heilt) generiert auf C2 so viele Stacks, dass Sie die maximalen 400 (mit C1-Erweiterung) innerhalb von 2-3 Sekunden erreichen — statt den sonst nötigen 8-10 Sekunden. Das entspricht <strong>100% Team-DMG-Bonus</strong> ab dem ersten Moment Ihrer Rotation. Zusätzlich erhöht C2 Furinas eigene maximale HP um 0,5% pro überschüssigem Fanfare-Stack (über 400 hinaus), was bei voller Stack-Generierung <strong>bis zu 140% max HP-Bonus</strong> bedeutet. Ihr persönlicher Schaden steigt dadurch um etwa 80-100%. Wenn Sie Furina als Kern-Support in mehreren Teams einsetzen, ist C2 der beste Invest mit Primogems, den Sie tätigen können. C3 (Talent-Level +3 auf Burst) und C4 (Energy-Flat für Furina bei Salon-Member-Treffern) sind solide, aber nicht annähernd so spielverändernd.</p>
+</div>
+
+<h3>Golden Troupe oder Marechaussee Hunter?</h3>
+<div class="atomic-answer">
+<p><strong>4-Golden Troupe ist alternativlos für C0-C5 Furina.</strong> Das Set gewährt 70% Elemental Skill DMG (2er-Set: 20%, 4er-Set: weitere 50% wenn der Träger nicht auf dem Feld ist). Furinas Salon Members zählen als Elemental-Skill-Schaden und agieren ausschließlich off-field — sie profitieren also permanent vom vollen 70%-Bonus. Marechaussee Hunter (36% CRIT Rate bei HP-Änderungen) ist <strong>nur auf C6 sinnvoll</strong>: Ab C6 erhält Furina nach dem Einsatz ihrer Skill eine 10-sekündige Hydro-Infusion auf ihren Normalangriffen mit massivem HP-Scaling (18% max HP pro Treffer). In diesem Fall wird sie zum on-field DPS und kann Marechaussee Hunter effektiv nutzen. Für alle anderen Konstellationsstufen (C0-C5) ist Golden Troupe das mit Abstand beste Set. Hauptstats: HP% Sands / HP% oder Hydro DMG% Goblet / CRIT Rate oder CRIT DMG Circlet. Substat-Priorität: CRIT Rate/DMG &gt; HP% &gt; Energy Recharge &gt; HP flat.</p>
+</div>
+
+<h2>Artefakt-Empfehlung</h2>
+<table>
+<tr><th>Set</th><th>Hauptstats</th><th>Substat-Priorität</th><th>Für wen</th></tr>
+<tr><td>4-Golden Troupe</td><td>Sands: HP%<br>Goblet: HP% / Hydro DMG%<br>Circlet: CRIT Rate / CRIT DMG</td><td>CRIT Rate/DMG &gt; HP% &gt; Energy Recharge &gt; HP flat</td><td>C0-C5 (Standard)</td></tr>
+<tr><td>2-Golden Troupe + 2-Tenacity</td><td>Sands: HP%<br>Goblet: Hydro DMG%<br>Circlet: CRIT Rate/DMG</td><td>CRIT &gt; HP% &gt; ER &gt; HP flat</td><td>Übergangs-Build</td></tr>
+<tr><td>4-Marechaussee Hunter</td><td>Sands: HP%<br>Goblet: Hydro DMG%<br>Circlet: CRIT DMG</td><td>CRIT DMG &gt; HP% &gt; ER &gt; CRIT Rate</td><td>Nur C6 on-field DPS</td></tr>
+</table>
+<p style="margin-top:12px;font-size:0.9rem;color:#aaa;"><strong>Goblet-Wahl:</strong> Hydro DMG% und HP% liegen auf C0-C5 sehr nah beieinander (innerhalb 2-3%). Mit Furinas Signaturwaffe oder Kazuha im Team ist HP% oft besser wegen Diminishing Returns. Mit Fleuve Cendre Ferryman und ohne externe DMG-Buffs ist Hydro DMG% leicht vorne. <strong>Faustregel:</strong> Nehmen Sie das Goblet mit den besseren Substat-Rolls. <strong>Energy Recharge Breakpoints:</strong> ~200% ER in Solo-Hydro, ~150% in Doppel-Hydro mit Favonius-Partner, ~130% mit Doppel-Hydro und Favonius + R5 Fleuve.</p>
+
+<h2>Waffen-Ranking</h2>
+<table>
+<tr><th>Rang</th><th>Waffe</th><th>Wert</th><th>Notiz</th></tr>
+<tr><td>⭐⭐⭐⭐⭐</td><td>Splendor of Tranquil Waters</td><td>100%</td><td>Signatur (5★). 88.2% CRIT DMG, 24% HP, bis zu 28% Skill-DMG. Banner-exklusiv.</td></tr>
+<tr><td>⭐⭐⭐⭐</td><td>Primordial Jade Cutter</td><td>~93%</td><td>5★ Standard. 44.1% CRIT Rate, 20% HP, ATK-Bonus. Sehr universell.</td></tr>
+<tr><td>⭐⭐⭐⭐</td><td>Key of Khaj-Nisut</td><td>~91%</td><td>5★ Nilou-Signatur. 66.2% HP, EM-Team-Buff. Hoher HP-Wert nützlich.</td></tr>
+<tr><td>⭐⭐⭐</td><td>Festering Desire (R5)</td><td>~88%</td><td>4★ Event-Waffe 1.2. 45.9% ER, 32% Skill-DMG + 12% Skill-CRIT. Leider limitiert.</td></tr>
+<tr><td>⭐⭐⭐</td><td>Fleuve Cendre Ferryman (R5)</td><td>~85%</td><td><strong>Beste F2P-Waffe.</strong> 45.9% ER, 32% Skill-CRIT-Rate. Fontaine-Fischerei, 100% kostenlos.</td></tr>
+<tr><td>⭐⭐</td><td>Wolf-Fang (R5)</td><td>~82%</td><td>4★ Battle Pass. 27.6% CRIT Rate, 32% Skill-DMG. Gute Stat-Stick-Option.</td></tr>
+<tr><td>⭐⭐</td><td>Favonius Sword (R5)</td><td>~76%</td><td>4★. 61.3% ER, Energie-Partikel fürs Team. <strong>Bester Team-Support.</strong></td></tr>
+<tr><td>⭐</td><td>Harbinger of Dawn (R5)</td><td>~78%*</td><td>3★. 46.9% CRIT DMG, 28% CRIT Rate. *Nur bei &gt;90% HP — schwer zu halten mit Furinas HP-Drain.</td></tr>
+</table>
+<p style="margin-top:12px;font-size:0.9rem;color:#aaa;"><strong>Detaillierte Notizen:</strong> Festering Desire ist für Veteranen aus Version 1.2 die zweitbeste Option und schlägt in vielen Situationen sogar Jade Cutter wegen des Skill-CRIT-Buffs. Fleuve Cendre Ferryman ist für alle neuen Spieler die klare F2P-Empfehlung: einfach in Fontaine zu angeln (benötigt 12x Maintenance Mek, 30x Rippling Heartfeather Bass, 30x Blazing Heartfeather Bass). Favonius Sword ist ideal, wenn Ihr Team ER-Probleme hat — der Team-Energiegewinn kompensiert Furinas niedrigeren persönlichen Schaden. Wolf-Fang aus dem Battle Pass ist eine gute Mid-Tier-Option mit konsistentem CRIT-Rate-Stat-Stick. Vermeiden Sie Harbinger of Dawn auf Furina: ihr HP-Drain hält sie selten über 90% HP.</p>
+
+<h2>Team-Kompositionen</h2>
+<p>Furina ist der vielseitigste Support im Spiel und funktioniert in praktisch jedem Team, das einen Team-Heiler integrieren kann. Hier sind die fünf stärksten Meta-Kompositionen mit getesteten Abyss-Daten:</p>
+<table>
+<tr><th>Team</th><th>Rollen</th><th>Synergie</th></tr>
+<tr><td><strong>Neuvillette Hypercarry</strong><br>Neuvillette + Furina + Kazuha + Baizhu/Charlotte</td><td>Neuvillette: On-Field DPS<br>Furina: Buffer + Sub-DPS<br>Kazuha: VV-Shred + DMG-Bonus<br>Baizhu: Heiler + Schild</td><td>Neuvillettes Selbstheilung via Sourcewater Droplets stackt Fanfare automatisch. Kazuhas Gruppierung + Hydro-Swirl bufft beide Hydro-DPS massiv. Baizhus Team-Heilung auf E sichert maximale Stacks. <strong>Aktuell das stärkste Team im Spiel.</strong></td></tr>
+<tr><td><strong>Hu Tao Double Hydro</strong><br>Hu Tao + Furina + Yelan + Xianyun/Jean</td><td>Hu Tao: Vape-DPS<br>Furina: Buffer + Sub-DPS<br>Yelan: Sub-DPS + DMG-Bonus<br>Xianyun: Heiler + Plunge-Enable</td><td>Doppel-Hydro-Resonanz (+25% HP) bufft Hu Tao und Yelan. Furina hält Hu Tao unter 50% HP für maximalen Pyro-DMG-Bonus. Xianyun ermöglicht Plunge-Vape-Hu-Tao-Spielweise als Alternative zu C6 Bennett.</td></tr>
+<tr><td><strong>Wriothesley Freeze/Melt</strong><br>Wriothesley + Furina + Shenhe/Kazuha + Charlotte</td><td>Wriothesley: On-Field Cryo-DPS<br>Furina: Hydro-App + Buffer<br>Shenhe/Kazuha: Cryo-Buffer/Shred<br>Charlotte: Cryo-Heiler</td><td>Wriothesleys Selbst-Schaden durch Enhanced-Charged-Attack synced perfekt mit Furinas HP-Drain. Charlotte als Cryo-Heiler aktiviert Cryo-Resonanz (+15% CRIT Rate). Furinas langsame Hydro-Applikation erlaubt konsistentes Freeze.</td></tr>
+<tr><td><strong>Navia Double Hydro</strong><br>Navia + Furina + Bennett + Zhongli</td><td>Navia: Quickswap-Geo-DPS<br>Furina: Buffer + Crystallize-Enable<br>Bennett: ATK-Buffer + Heiler<br>Zhongli: Geo-Resonanz + Schild</td><td>Bennett als ST-Heiler stackt Fanfare etwas langsamer, kompensiert aber mit massivem ATK-Buff. Furinas konstanter Hydro erzeugt Crystallize-Shards für Navias Skill-Ladungen. Geo-Resonanz mit Zhongli rundet den Schild-Schaden ab.</td></tr>
+<tr><td><strong>Xiao Plunge</strong><br>Xiao + Furina + Faruzan (C6) + Xianyun</td><td>Xiao: Plunge-DPS<br>Furina: Buffer + Sub-DPS<br>Faruzan: Anemo-Shred + Buff<br>Xianyun: Heiler + Plunge-Buffer</td><td>Xiaos HP-Drain während seines Burst synced direkt mit Furinas Fanfare. Xianyun heilt das gesamte Team und bufft Plunge-Schaden. Faruzans Anemo-Shred auf C6 ist essenziell. Altes Xiao-Team völlig neu belebt.</td></tr>
+</table>
+<p style="margin-top:12px;font-size:0.9rem;color:#aaa;"><strong>Heiler-Hierarchie für Furina-Teams:</strong> Jean (Burst = sofort 100% Team-Heilung, schnellste Fanfare) &gt; Baizhu (Skill = Team-Heilung + schwacher Schild) &gt; Xianyun (Burst-AoE-Heal + kontinuierliche Tick-Heilung) &gt; Charlotte (Burst-AoE-Heal + kontinuierliche Tick-Heilung über 4s) &gt; Kokomi/Mika (langsamere Team-Heilung). <strong>Vermeiden Sie:</strong> Bennett (heilt nur einen Charakter), Kuki Shinobu (selbstschädigend + ST-Heilung), Diona (zu langsame Tick-Heilung).</p>
+
+<h2>Konstellations-Guide</h2>
+<table>
+<tr><th>Stufe</th><th>Effekt</th><th>Wertung</th></tr>
+<tr><td>C1</td><td>Startet mit 150 Fanfare-Stacks; Maximum von 300 auf 450 erhöht. Effektiver DMG-Bonus steigt von 75% auf 100%.</td><td>★★★☆ — Solider Boost, aber kein Game-Changer. Etwa 12-15% Team-DMG-Steigerung.</td></tr>
+<tr><td>C2</td><td><strong>Fanfare-Akkumulation +250%.</strong> Überschüssige Stacks geben Furina +0.5% max HP pro Stack (max +140%).</td><td>★★★★★ — <strong>Riesiger Power-Spike.</strong> Doppelter persönlicher Schaden + sofortiges Max-Fanfare. Essenziell für Furina-Mains.</td></tr>
+<tr><td>C3</td><td>Elemental Burst +3 Level (max 15). Max DMG-Bonus steigt auf 124% (0.31% pro Stack).</td><td>★★★ — Solider linearer Boost. Etwa 8-10% mehr Team-DMG.</td></tr>
+<tr><td>C4</td><td>Salon Members generieren 4 Energy für Furina bei Treffern (5s CD). Entfernt ER-Bedarf fast vollständig.</td><td>★★★ — Quality-of-Life. Erlaubt HP% Sands statt ER und offensive Waffen.</td></tr>
+<tr><td>C5</td><td>Elemental Skill +3 Level. Salon-Member-Multiplikator steigt von 140% auf 160%.</td><td>★★ — Geringer persönlicher Schadens-Boost.</td></tr>
+<tr><td>C6</td><td><strong>Hydro-Infusion auf Normalangriffe</strong> für 10s nach Skill. Skaliert mit 18% max HP pro Treffer (max 6 Treffer). Heilt das Team für 3% HP pro Sekunde.</td><td>★★★★ — <strong>Furina wird zum on-field Hypercarry.</strong> Ermöglicht Solo-Abyss-Clears.</td></tr>
+</table>
+
+<h2>Referenzen</h2>
+<ul>
+<li><a href="https://keqingmains.com/furina/" rel="nofollow">KeqingMains (KQM) Furina Guide — Umfassende Theorie und Frame-Daten</a></li>
+<li><a href="https://www.prydwen.gg/genshin/characters/furina" rel="nofollow">Prydwen Furina Guide — Build, Teams und Schadens-Berechnungen</a></li>
+<li><a href="https://game8.co/games/Genshin-Impact/archives/431384" rel="nofollow">Game8 Furina Build Guide — Waffen, Artefakte und Skill-Priorität</a></li>
+<li><a href="https://genshin-impact.fandom.com/wiki/Furina" rel="nofollow">Genshin Impact Wiki — Furina: Vollständige Daten, Talente und Lore</a></li>
+<li><a href="https://youtu.be/8Z3q3p0qJxI" rel="nofollow">Zy0x Furina Complete Guide (YouTube) — Build- und Team-Erklärung</a></li>
+<li><a href="https://genshinlab.com/furina/" rel="nofollow">GenshinLab Furina Build — Artefakt-Vergleichsrechner</a></li>
+</ul>
+<div class="ad-placeholder">[Anzeige]</div>
+</article>
+</main>
+<footer><div class="container"><p>&copy; 2026 Teyvat Guide DE. Alle Daten aus Community-Konsens (KQM, Prydwen, Game8) und In-Game-Tests. Nicht mit HoYoverse verbunden. Genshin Impact ist ein eingetragenes Warenzeichen von HoYoverse.</p></div></footer>
+<footer class="site-network" style="margin-top:3rem;padding:1.5rem;background:#1a1a2e;border-radius:8px;text-align:center">
+<p style="color:#aaa;font-size:0.85rem;margin-bottom:0.8rem">🎮 Guide-Netzwerk — Mehr Game Guides</p>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.6rem">
+<a href="https://chjiya.github.io/teyvat-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">原神 Genshin (CN)</a>
+<a href="https://chjiya.github.io/enshin-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Genshin (EN)</a>
+<a href="https://chjiya.github.io/teyvat-guide-de/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Genshin (DE)</a>
+<a href="https://chjiya.github.io/hsr-guide-de/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">HSR (DE)</a>
+<a href="https://chjiya.github.io/zzz-guide-de/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">ZZZ (DE)</a>
+<a href="https://chjiya.github.io/enshin-guide-ja/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Genshin (JA)</a>
+<a href="https://chjiya.github.io/wuwa-guide-de/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">WuWa (DE)</a>
+<a href="https://chjiya.github.io/arknights-guide-de/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Arknights (DE)</a>
+</div>
+</footer>
+</body>
+</html>
